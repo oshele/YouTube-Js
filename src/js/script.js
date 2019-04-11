@@ -115,7 +115,7 @@ switcher.addEventListener('change', () => {
 
 function start() {
     gapi.client.init({
-        'apiKey': 'AIzaSyBt3kUIIgGt6E3sCW-H0FDQ8pCf37_k3Jk',
+        'apiKey': 'API-Key',
         'discoveryDocs': ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"]
     }).then(function () {
         return gapi.client.youtube.playlistItems.list({
